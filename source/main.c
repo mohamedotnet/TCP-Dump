@@ -8,7 +8,7 @@
 	#include <unistd.h>
 #endif
 
-#ifndef __linux__
+#ifndef __WIN32
 	#include <windows.h>
 	#include <winsock.h>
 #endif
